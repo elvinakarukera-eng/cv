@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(146, 165, 171);
+}
+
+
+
+h1 {
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+p {
+    color: rgba(21, 255, 0, 0.468);
+}
+
+#blabla {
+    color: tomato;
+}
+
+.important {
+    color: darkblue;
+
+}
+
+div {
+
+    display: grid;
+    place-items: center;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(red, aqua);
+    border-radius: 50%;
+}
+
+span {
+    color: gold;
+    font-size: 60px;
+    animation: rotate infinite ease 2s;
+}
+
+@keyframes rotate { 
+    to {
+        transform: scale(3.5);
+        color: gold;
+    }
+} 
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
